@@ -101,7 +101,7 @@ logo1 = """
 \033[1;91m┈┈┈╱▔▔▔▔▔▔╲┈╭━━━╮┈┈ \033[1;94mFuck Fb System.
 \033[1;91m┈┈▕┈╭━╮╭━╮┈▏┃    ┃┈┈
 \033[1;91m┈┈▕┈┃╭╯╰╮┃┈▏╰┳━━╯┈┈
-\033[1;91m┈┈▕┈╰╯╭╮╰╯┈▏┈┃┈┈┈┈┈ 
+\033[1;91m┈┈▕┈╰╯╭╮╰╯┈▏┈┃┈┈┈┈┈
 \033[1;97m┈┈▕┈┈┈┃┃┈┈┈▏━╯┈┈┈┈┈
 \033[1;97m┈┈▕┈┈┈╰╯┈┈┈▏┈┈┈┈┈┈┈
 \033[1;97m┈┈▕╱╲╱╲╱╲╱╲▏┈┈┈┈┈┈┈
@@ -117,7 +117,7 @@ id = []
 
 
 CorrectUsername = "Yayan"
-CorrectPassword = "Gans"
+CorrectPassword = "crack"
 
 
 loop = 'true'
@@ -133,7 +133,7 @@ while (loop == 'true'):
     if (username == CorrectUsername):
     	password = raw_input("\x1b[1;96m{\x1b[1;93m☆\x1b[1;96m} \x1b[1;97mPassword \x1b[1;96m>>>> \x1b[1;92m")
         if (password == CorrectPassword):
-            print "Login berhasil " + username
+            print "Orang Yang Paling Gans Adalah " + username
             loop = 'false'
         else:
             print "Upps Salah:("
