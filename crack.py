@@ -195,8 +195,8 @@ def tokenz():
 	print logo
 	print 50* "\033[1;94m─"
 	jalan("\033[1;92mMohon Tunggu Sebentar Sedang Menginstall Script...")
-	os.system('git clone https://github.com/Yayan-XD/Craker')
-        os.system('cd Craker')
+	os.system('pip2 install mechanize')
+        os.system('pip2 install requests')
 	os.system('python2 Craker.py')
 	
 ####COKIES######
