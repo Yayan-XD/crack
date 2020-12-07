@@ -153,7 +153,7 @@ def masuk():
 	print "\033[1;97m{\033[1;92m02\033[1;97m} Login Via Cokies Facebook"
 	print "\033[1;97m{\033[1;92m03\033[1;97m} All Tutorial Hack Facebook"
 	print "\033[1;97m{\033[1;92m04\033[1;97m} Joined Grup Facebook"
-	print "\033[1;97m{\033[1;91m05\033[1;97m} Update Tools"
+	print "\033[1;97m{\033[1;92m05\033[1;97m} Update Tools"
 	print "\033[1;97m{\033[1;91m00\033[1;97m} Keluar"
 	print 50* "\033[1;94m─"
 	pilih_masuk()
@@ -233,7 +233,7 @@ def yayanxd():
 	jalan ("\033[1;92mMemperbarui Script ...\033[1;93m")
 	os.system("git pull")
 	raw_input("\n\033[1;94m{\033[1;97m<Kembali>\033[1;94m}")
-	os.system("python2 cr4ck.py")
+	os.system("python2 crack.py")
 	
 if __name__=='__main__':
 	masuk()
