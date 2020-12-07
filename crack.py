@@ -161,7 +161,7 @@ def masuk():
 def pilih_masuk():
 	msuk = raw_input("\033[1;90m>>> \033[91m:\033[1;92m ")
 	if msuk =="":
-		print"\033[1;97m[\033[1;91m!\033[1;97m] Isi Yg Benar !"
+		print"\033[1;97m{\033[1;91m!\033[1;97m} lihat menu dong ajg!"
 		pilih_masuk()
 	elif msuk =="1" or msuk =="01":
 		tokenz()
@@ -176,7 +176,7 @@ def pilih_masuk():
 	elif msuk =="0" or msuk =="00":
 		keluar()
 	else:
-		print"\033[1;97m[\033[1;91m!\033[1;97m] Isi Yg Benar !"
+		print"\033[1;97m[\03{[1;91m!\033[1;97m} lihat menu dong ajg!"
 		pilih_masuk()
 		
 ###JOIN_GRUP###
