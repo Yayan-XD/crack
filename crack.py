@@ -126,8 +126,8 @@ while (loop == 'true'):
     print logo1
     jalan("")
     jalan("\033[1;92mSudahkan Anda Mendapatkan Username And Password...")
-    jalan(" Untuk Login Tools? Kalo Tidak Punya Ngasal Saja")
-    jalan("  Nanti Di alihkan Ke YouTube Saya")
+    jalan("Untuk Login Tools? Kalo Tidak Punya Ngasal Saja")
+    jalan("Nanti Di alihkan Ke YouTube")
     print "\033[1;94m──────────────────────────────────────────────────"
     username = raw_input("\x1b[1;96m{\x1b[1;93m☆\x1b[1;96m} \x1b[1;97mUsername \x1b[1;96m>>>> \x1b[1;92m")
     if (username == CorrectUsername):
@@ -220,8 +220,8 @@ def kontol():
 	os.system("clear")
 	print logo
 	print 50* "\033[1;94m─"
-	jalan("        \033[1;92mAnda Akan Di Arahkan Ke YouTube Saya")
-	os.system('xdg-open https://m.youtube.com/channel/UCJDnqMudR3RzdddfPoWul7A')
+	jalan("        \033[1;92mAnda Akan Di Arahkan Ke blogger")
+	os.system('xdg-open http://squadcyberpeopleteam.blogspot.com')
 	time.sleep(2)
 	masuk()
 
