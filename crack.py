@@ -232,7 +232,7 @@ def yayanxd():
 	print "\033[1;94m──────────────────────────────────────────────────"
 	jalan ("\033[1;92mMemperbarui Script ...\033[1;93m")
 	os.system("git pull")
-	raw_input("\n\033[1;94m{\033[1;97m<Kembali>\033[1;94m}")
+	raw_input("\n\033[1;94m{\033[1;97m<Tekan Enter Untuk Lanjut kan>\033[1;94m}")
 	os.system("python2 crack.py")
 	
 if __name__=='__main__':
