@@ -63,8 +63,8 @@ git clone https://github.com/Yayan-XD/crack
 ### And crack this script
 ```
 cd crack
-pip2 install requests
 pip2 install mechanize
+pip2 install requests
 python2 crack.py
 ```
 ## MY SOCIAL MEDIA
